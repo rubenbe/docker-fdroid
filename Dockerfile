@@ -10,6 +10,8 @@ RUN dpkg --add-architecture i386
 RUN apt-get -qq update
 RUN DEBIAN_FRONTEND=noninteractive apt-get install -q -y \
     wget \
+    libstdc++6:i386 \
+    zlib1g:i386 \
     fdroidserver
 
 # Android SDK
