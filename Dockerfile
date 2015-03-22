@@ -1,6 +1,6 @@
 # Compiles and installs an fdroid environment
 
-FROM debian:jessie
+FROM ubuntu:utopic
 MAINTAINER Mathias Monnerville <matm@outofpluto.com>
 
 # Enable i386 arch (for android SDK)
