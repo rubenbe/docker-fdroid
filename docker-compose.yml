@@ -1,0 +1,4 @@
+fdroid:
+    build: fdroid
+    volumes:
+          - apk:/apk/repo
