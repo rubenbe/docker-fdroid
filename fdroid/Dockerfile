@@ -16,7 +16,7 @@ RUN DEBIAN_FRONTEND=noninteractive apt-get install -q -y \
 
 # Android SDK
 ENV ANDROID_HOME /sdk
-RUN wget http://dl.google.com/android/android-sdk_r22.3-linux.tgz
+RUN wget https://dl.google.com/android/android-sdk_r22.3-linux.tgz
 RUN tar xvzf android-sdk_r22.3-linux.tgz && mv android-sdk-linux $ANDROID_HOME && rm android-sdk_r22.3-linux.tgz
 
 # Add android tools and platform tools to PATH
